@@ -1,6 +1,10 @@
 # Phishing Email Classifier
 
-A machine learning web application that detects phishing emails using Natural Language Processing (NLP) and Logistic Regression.
+A machine learning web application that detects phishing emails using Natural Language Processing and Logistic Regression.
+
+## Live Demo
+
+https://phishing-classifier-1-mzp6.onrender.com/
 
 ## Overview
 
@@ -40,7 +44,7 @@ This project trains a classifier on a real-world dataset of 38,000+ emails to di
    venv\Scripts\activate
 
 3. Install dependencies
-   pip install pandas scikit-learn nltk flask
+   pip install -r requirements.txt
 
 4. Download the CEAS 2008 dataset and save it as emails.csv in the project folder
 
@@ -62,4 +66,5 @@ phishing-classifier/
 +-- preprocess.py
 +-- explore.py
 +-- .gitignore
++-- requirements.txt
 +-- README.md
